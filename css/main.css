@@ -72,9 +72,22 @@ html {
     font-size: 10px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 320px) {
     html {
         font-size: 9.375px;
+    }
+    [class*="col-"] {
+        width: 100% !important;
+        /* float: none !important; */
+        clear: both !important;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    .about-content .col-six .tab-full .a {
+        text-align: center !important;
+        float: center !important;
+        margin: 0 auto;
     }
 }
 
@@ -2354,7 +2367,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works {
     padding-top: 15rem;
-    padding-bottom: 15.6rem;
+    /* padding-bottom: 15.6rem; */
     background-color: #f1f1f1;
     position: relative;
 }
@@ -4118,11 +4131,11 @@ article.blog-single .blog-content {
 /* Customization */
 /* -------------------------------------- */
 .project-work {
-    height: 450px;
+    height: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 2px 5px 0 rgba(0, 0, 0, 0.19);
-    padding: 3%;
-    margin: 1% 4%;
+    padding: 5%;
+    margin: 1% 0%;
 }
 .row .project-work-full .project-work .project-image img {
     height: 75px !important;
