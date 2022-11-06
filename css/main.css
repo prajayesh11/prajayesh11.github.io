@@ -90,7 +90,7 @@ html {
         margin: 0 auto;
     }
     .party-scream {
-        width: 9% !important;
+        width: 12% !important;
     }
     .project-work {
         height: 500px;
@@ -98,6 +98,13 @@ html {
             0 2px 5px 0 rgba(0, 0, 0, 0.19);
         padding: 6%;
         margin: 4% 0% !important;
+    }
+    .about-content .left {
+        padding-right: 0px !important;
+    }
+
+    .about-content .right {
+        padding-left: 0px !important;
     }
 }
 
@@ -1357,6 +1364,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .section-intro h3 {
         font-size: 1.6rem;
     }
+    .party-scream {
+        width: 12% !important;
+    }
 }
 
 
@@ -2197,6 +2207,9 @@ html.no-csstransitions .home-content__main {
         width: 85%;
         margin-top: 150px;
     }
+    .party-scream {
+        width: 10% !important;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -2360,6 +2373,9 @@ html.no-csstransitions .home-content__main {
     }
     .timeline__block {
         padding-left: 6rem;
+    }
+    .party-scream {
+        width: 9% !important;
     }
 }
 
@@ -2847,6 +2863,9 @@ html.no-csstransitions .home-content__main {
     .testimonials-header h1 {
         font-size: 3rem;
     }
+    .party-scream {
+        width: 7% !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3040,6 +3059,9 @@ html.no-csstransitions .home-content__main {
     }
     .stats h4 {
         font-size: 1.4rem;
+    }
+    .party-scream {
+        width: 7% !important;
     }
 }
 
@@ -4161,7 +4183,7 @@ article.blog-single .blog-content {
     color: rgba(255, 255, 255, 0.5) !important;
 }
 .party-scream {
-    width: 7%;
+    width: 6%;
 }
 
 /* ------------------------------------------------------------------- 
