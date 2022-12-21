@@ -122,6 +122,9 @@ body {
     padding: 0;
 }
 
+.seo-field {
+    display: none;
+}
 
 /* ------------------------------------------------------------------- 
  * ## links - (_document-setup.scss) 
